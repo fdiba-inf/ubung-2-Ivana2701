@@ -13,8 +13,8 @@ if(a!=0){
 double D = Math.pow(b, 2) - 4* a * c;
 
 if(D>=0){
-double x1 = (-b + Math.sqrt(D))/2*a;
-double x2 = (-b - Math.sqrt(D)/2*a);
+double x1 = (-b + Math.sqrt(D))/(2*a);
+double x2 = (-b - Math.sqrt(D))/(2*a);
 System.out.print(x1 + ", " + x2);
 }
 
@@ -26,7 +26,7 @@ else{
 
   if(b!=0){
     double x = -c / b;
-      System.out.print("x");
+      System.out.print(x);
   }
   else{
     if(c!=0){
